@@ -1,5 +1,6 @@
-console.log(bowlingScore('X X X X X X X X X XXX'))
+// get bowling score, originally as a codementor.io challenge
 
+// usage - bowlingScore('34 5/ 6/ x x 05 30 x 7/ x4/')
 function bowlingScore (frames) {
   // Figure out the score!
 

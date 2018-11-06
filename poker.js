@@ -1,3 +1,7 @@
+// texas hold 'em poker
+// originally a codementor.io challenge
+// compare 2 hands - see who wins
+
 const Result = { win: 1, loss: 2, tie: 3 }
 
 function PokerHand (hand) {

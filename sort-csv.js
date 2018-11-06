@@ -1,9 +1,9 @@
-const data = `Beth,Charles,Danielle,Adam,Eric\n17945,10091,10088,3907,10132\n2,12,13,48,11`
-console.log(sortCsvColumns(data))
+// take a csv and sort by first row
+// originally done as a a codementor.io challenge
 
-function sortCsvColumns (csv_data) {
+function sortCsvColumns (csvData) {
   // split it into array of array and switch cols and rows around
-  const rows = csv_data.split('\n').map(v => v.split(','))
+  const rows = csvData.split('\n').map(v => v.split(','))
   const data = []
   for (let i = 0; i < rows[0].length; i++) {
     const record = []
